@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<style>.bg{fill:#fbfaf7}.ink{fill:#1f2328}.mute{fill:#6a737d}.grid{stroke:#e4e1da}.base{stroke:#9aa0a6}.on{fill:#2a78d6}.off{fill:#bcd4f2}.acc{fill:#b4532a}.accs{stroke:#b4532a}@media (prefers-color-scheme: dark){.bg{fill:#16181c}.ink{fill:#e6e6e6}.mute{fill:#9aa0a6}.grid{stroke:#2e3238}.base{stroke:#5f656d}.on{fill:#3987e5}.off{fill:#2d4466}.acc{fill:#e8895c}.accs{stroke:#e8895c}}</style>
+<rect class="bg" width="960" height="440" rx="14"/>
+<text class="mute" x="40" y="38" font-size="13">과적합 계단 — 영화 GraphRAG, 같은 홀드아웃 묶음(holdout-100)을 네 번 잰 컨텍스트 재현율</text>
+<line class="grid" x1="90" y1="350.0" x2="702" y2="350.0"/>
+<text class="mute" x="82" y="354.0" font-size="11" text-anchor="end">0%</text>
+<line class="grid" x1="90" y1="225.0" x2="702" y2="225.0"/>
+<text class="mute" x="82" y="229.0" font-size="11" text-anchor="end">50%</text>
+<line class="grid" x1="90" y1="100.0" x2="702" y2="100.0"/>
+<text class="mute" x="82" y="104.0" font-size="11" text-anchor="end">100%</text>
+<path class="on" d="M110 350 V156.5 Q110 152.5 114 152.5 H216 Q220 152.5 220 156.5 V350 Z"/>
+<text class="ink" x="165.0" y="142.5" font-size="18" font-weight="700" text-anchor="middle">79%</text>
+<text class="ink" x="165.0" y="374" font-size="12.5" font-weight="700" text-anchor="middle">코드 동결 후</text>
+<text class="mute" x="165.0" y="392" font-size="12" text-anchor="middle">한 번만 채점</text>
+<path class="off" d="M264 350 V119.0 Q264 115.0 268 115.0 H370 Q374 115.0 374 119.0 V350 Z"/>
+<text class="ink" x="319.0" y="105.0" font-size="18" font-weight="400" text-anchor="middle">94%</text>
+<text class="ink" x="319.0" y="374" font-size="12.5" font-weight="400" text-anchor="middle">틀린 문항을</text>
+<text class="mute" x="319.0" y="392" font-size="12" text-anchor="middle">보고 고친 뒤</text>
+<path class="off" d="M418 350 V116.5 Q418 112.5 422 112.5 H524 Q528 112.5 528 116.5 V350 Z"/>
+<text class="ink" x="473.0" y="102.5" font-size="18" font-weight="400" text-anchor="middle">95%</text>
+<text class="ink" x="473.0" y="374" font-size="12.5" font-weight="400" text-anchor="middle">말뭉치 확대</text>
+<text class="mute" x="473.0" y="392" font-size="12" text-anchor="middle">1,721 → 3,072편</text>
+<path class="off" d="M572 350 V111.5 Q572 107.5 576 107.5 H678 Q682 107.5 682 111.5 V350 Z"/>
+<text class="ink" x="627.0" y="97.5" font-size="18" font-weight="400" text-anchor="middle">97%</text>
+<text class="ink" x="627.0" y="374" font-size="12.5" font-weight="400" text-anchor="middle">정답 오류 2건</text>
+<text class="mute" x="627.0" y="392" font-size="12" text-anchor="middle">바로잡은 뒤</text>
+<line class="base" x1="90" y1="350" x2="702" y2="350" stroke-width="1.5"/>
+<line class="accs" x1="220" y1="152.5" x2="726" y2="152.5" stroke-width="1" stroke-dasharray="4 4"/>
+<path class="accs" fill="none" stroke-width="2" d="M720 107.5 H726 V152.5 H720"/>
+<text class="acc" x="740" y="126.0" font-size="20" font-weight="700">18%p</text>
+<text class="ink" x="740" y="147.0" font-size="12.5">= 내 과적합의 크기</text>
+<text class="mute" x="740" y="250.0" font-size="12">일반화를 말할 수 있는</text>
+<text class="mute" x="740" y="267.0" font-size="12">숫자는 진한 막대 하나뿐</text>
+</svg>

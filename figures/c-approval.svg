@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<style>.bg{fill:#fbfaf7}.ink{fill:#1f2328}.mute{fill:#6a737d}.box{fill:#fff;stroke:#e4e1da}.focus{fill:#fff;stroke:#2a78d6;stroke-width:2}.flaw{fill:#fdf1ea;stroke:#b4532a;stroke-width:1.5}.acc{fill:#b4532a}.link{stroke:#b9b5ac;fill:none}@media (prefers-color-scheme: dark){.bg{fill:#16181c}.ink{fill:#e6e6e6}.mute{fill:#9aa0a6}.box{fill:#1f2328;stroke:#2e3238}.focus{fill:#1f2328;stroke:#3987e5}.flaw{fill:#2a1f1a;stroke:#e8895c}.acc{fill:#e8895c}.link{stroke:#4a4f57}}</style>
+<rect class="bg" width="960" height="470" rx="14"/>
+<text class="mute" x="40" y="38" font-size="13">결재 18건의 행방 — 재고 발주 결재실, 2011-06-06 주</text>
+<path class="link" stroke-width="2" d="M200 205.0 C235.0 205.0 235.0 90.0 270 90.0"/>
+<path class="link" stroke-width="2" d="M200 205.0 C235.0 205.0 235.0 260.0 270 260.0"/>
+<path class="link" stroke-width="2" d="M460 260.0 C480.0 260.0 480.0 200.0 500 200.0"/>
+<path class="link" stroke-width="2" d="M460 260.0 C480.0 260.0 480.0 330.0 500 330.0"/>
+<path class="link" stroke-width="2" d="M670 200.0 C700.0 200.0 700.0 140.0 730 140.0"/>
+<path class="link" stroke-width="2" d="M670 200.0 C700.0 200.0 700.0 205.0 730 205.0"/>
+<path class="link" stroke-width="2" d="M670 330.0 C700.0 330.0 700.0 295.0 730 295.0"/>
+<path class="link" stroke-width="2" d="M670 330.0 C700.0 330.0 700.0 360.0 730 360.0"/>
+<rect class="box" x="40" y="170" width="160" height="70" rx="8"/>
+<text class="ink" x="52" y="202.0" font-size="14" font-weight="700">이번 주 후보</text>
+<text class="mute" x="52" y="221.0" font-size="11.5">200건</text>
+<rect class="box" x="270" y="60" width="190" height="60" rx="8"/>
+<text class="ink" x="282" y="87.0" font-size="14" font-weight="700">자동 발송</text>
+<text class="mute" x="282" y="106.0" font-size="11.5">182건 · 사람을 거치지 않음</text>
+<rect class="focus" x="270" y="230" width="190" height="60" rx="8"/>
+<text class="ink" x="282" y="257.0" font-size="14" font-weight="700">결재함</text>
+<text class="mute" x="282" y="276.0" font-size="11.5">18건 · 기준에 걸려 멈춤</text>
+<rect class="box" x="500" y="170" width="170" height="60" rx="8"/>
+<text class="ink" x="512" y="197.0" font-size="14" font-weight="700">수정 후 승인</text>
+<text class="mute" x="512" y="216.0" font-size="11.5">13건</text>
+<rect class="box" x="500" y="300" width="170" height="60" rx="8"/>
+<text class="ink" x="512" y="327.0" font-size="14" font-weight="700">반려</text>
+<text class="mute" x="512" y="346.0" font-size="11.5">5건</text>
+<rect class="box" x="730" y="118" width="200" height="44" rx="8"/>
+<text class="ink" x="742" y="137.0" font-size="14" font-weight="700">수량을 바꿈</text>
+<text class="mute" x="742" y="156.0" font-size="11.5">2건</text>
+<rect class="flaw" x="730" y="172" width="200" height="66" rx="8"/>
+<text class="acc" x="742" y="192" font-size="14" font-weight="700">⚠ 수량 그대로</text>
+<text class="mute" x="742" y="211" font-size="11.5">11건 · 수정 칸에 AI 수량이</text>
+<text class="mute" x="742" y="227" font-size="11.5">미리 채워져 있었다</text>
+<rect class="flaw" x="730" y="262" width="200" height="66" rx="8"/>
+<text class="acc" x="742" y="282" font-size="14" font-weight="700">⚠ 사실상 "다시 판정" 요청</text>
+<text class="mute" x="742" y="301" font-size="11.5">4건 · 그 버튼은 API 키가</text>
+<text class="mute" x="742" y="317" font-size="11.5">있어야 켜졌다</text>
+<rect class="box" x="730" y="338" width="200" height="44" rx="8"/>
+<text class="ink" x="742" y="357.0" font-size="14" font-weight="700">"너무 많음"</text>
+<text class="mute" x="742" y="376.0" font-size="11.5">1건</text>
+<line class="link" x1="40" y1="404" x2="920" y2="404" stroke-width="1"/>
+<text class="ink" x="40" y="432" font-size="14" font-weight="700">18건 사후 채점 (실제 다음 주 판매량 기준 손해)</text>
+<text class="ink" x="40" y="455" font-size="13.5">AI 판단 그대로 보냈다면 <tspan font-weight="700">£3,319</tspan>  →  사람이 결재한 결과 <tspan class="acc" font-weight="700">£4,270</tspan><tspan class="mute">   · 반려 5건은 발주하지 않아 품절된 것으로 계산</tspan></text>
+</svg>

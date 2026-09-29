@@ -1,0 +1,6 @@
+title: 에이전트 팀 꾸리기 WRAP UP
+lang: ko
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude: [README.md]

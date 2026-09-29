@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="axis" gradientUnits="userSpaceOnUse" x1="70" y1="0" x2="890" y2="0">
+      <stop offset="0" stop-color="#2f7d86"/>
+      <stop offset="1" stop-color="#c8562b"/>
+    </linearGradient>
+    <marker id="head-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c8562b"/>
+    </marker>
+    <marker id="head-l" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M10 0 L0 5 L10 10 z" fill="#2f7d86"/>
+    </marker>
+    <style>
+      .bg { fill:#fbfaf7; }
+      .cap { font-size:13px; fill:#6a737d; letter-spacing:.04em; }
+      .when { font-size:17px; font-weight:700; fill:#1f2328; }
+      .who { font-size:14px; fill:#1f2328; }
+      .sub { font-size:12px; fill:#6a737d; }
+      .pat { font-size:13px; font-weight:700; }
+      .row { font-size:12px; fill:#6a737d; font-weight:700; }
+      .end { font-size:13.5px; font-weight:700; }
+      .chip { fill:#ffffff; stroke:#e4e1da; }
+      @media (prefers-color-scheme: dark) {
+        .bg { fill:#16181c; } .when, .who { fill:#e6e6e6; } .cap, .sub, .row { fill:#9aa0a6; }
+        .chip { fill:#1f2328; stroke:#2e3238; }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="960" height="460" rx="14"/>
+  <text class="cap" x="40" y="42">구조가 굳는 시점 — 누가, 언제 흐름을 정하는가</text>
+
+  <!-- 시점 라벨 -->
+  <g text-anchor="middle">
+    <text class="when" x="120" y="100">코드 작성 시</text>
+    <text class="when" x="300" y="100">인덱싱 시</text>
+    <text class="when" x="480" y="100">질문 도착 후</text>
+    <text class="when" x="660" y="100">자료를 읽은 뒤</text>
+    <text class="when" x="840" y="100">사람이 본 뒤</text>
+  </g>
+
+  <!-- 축 -->
+  <line x1="70" y1="130" x2="890" y2="130" stroke="url(#axis)" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#fbfaf7" stroke-width="3">
+    <circle cx="120" cy="130" r="10" fill="#2f7d86"/>
+    <circle cx="300" cy="130" r="10" fill="#5a7a73"/>
+    <circle cx="480" cy="130" r="10" fill="#86775f"/>
+    <circle cx="660" cy="130" r="10" fill="#a8664a"/>
+    <circle cx="840" cy="130" r="10" fill="#c8562b"/>
+  </g>
+
+  <!-- 에이전트 -->
+  <text class="row" x="40" y="186">만든 것</text>
+  <g text-anchor="middle">
+    <rect class="chip" x="45" y="200" width="150" height="62" rx="8"/>
+    <text class="who" x="120" y="226">뉴스레터</text>
+    <text class="who" x="120" y="248">고객 응대 라우팅</text>
+
+    <rect class="chip" x="225" y="200" width="150" height="62" rx="8"/>
+    <text class="who" x="300" y="226">GraphRAG</text>
+    <text class="sub" x="300" y="248">영화 · 한국사 · 법령</text>
+
+    <rect class="chip" x="405" y="200" width="150" height="62" rx="8"/>
+    <text class="who" x="480" y="226">딥리서치 · 기획</text>
+    <text class="sub" x="480" y="248">목차 · 인원 · 배정</text>
+
+    <rect class="chip" x="585" y="200" width="150" height="62" rx="8"/>
+    <text class="who" x="660" y="226">딥리서치 · 점검</text>
+    <text class="sub" x="660" y="248">빈 칸 보고 재위임</text>
+
+    <rect class="chip" x="765" y="200" width="150" height="62" rx="8"/>
+    <text class="who" x="840" y="226">재고 발주 결재</text>
+    <text class="sub" x="840" y="248">HITL</text>
+  </g>
+
+  <!-- 패턴 -->
+  <text class="row" x="40" y="302">모듈 1 패턴</text>
+  <g text-anchor="middle">
+    <text class="pat" x="120" y="330" fill="#2f7d86">체이닝</text>
+    <text class="pat" x="120" y="350" fill="#2f7d86">라우팅 · 병렬화</text>
+    <text class="sub" x="300" y="340">(워크플로 패턴 밖 · 색인)</text>
+    <text class="pat" x="480" y="340" fill="#86775f">오케스트레이터-워커</text>
+    <text class="pat" x="660" y="340" fill="#a8664a">평가자-최적화자</text>
+    <text class="pat" x="840" y="340" fill="#c8562b">Human-in-the-Loop</text>
+  </g>
+
+  <!-- 대가 화살표 -->
+  <line x1="84" y1="398" x2="876" y2="398" stroke="url(#axis)" stroke-width="2.5" marker-start="url(#head-l)" marker-end="url(#head-r)"/>
+  <text class="end" x="70" y="430" fill="#2f7d86">싸다 · 예측 가능 · 테스트 쉬움</text>
+  <text class="end" x="890" y="430" fill="#c8562b" text-anchor="end">질문에 잘 맞음 · 비쌈 · 실행마다 흔들림</text>
+</svg>

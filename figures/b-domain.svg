@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 448" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<style>
+.bg{fill:#fbfaf7}.ink{fill:#1f2328}.mute{fill:#6a737d}.grid{stroke:#e4e1da}.g{fill:#2a78d6}.b{fill:#eb6834}.base{stroke:#9aa0a6}
+@media (prefers-color-scheme: dark){.bg{fill:#16181c}.ink{fill:#e6e6e6}.mute{fill:#9aa0a6}.grid{stroke:#2e3238}.g{fill:#3987e5}.b{fill:#d95926}.base{stroke:#5f656d}}
+</style>
+<rect class="bg" width="960" height="448" rx="14"/>
+<text class="mute" x="40" y="42" font-size="13">이기는 자리, 지는 자리 — 그래프 탐색 vs BM25 키워드 검색 (문항 통과율)</text>
+<rect class="g" x="380" y="62" width="12" height="12" rx="2"/><text class="ink" x="398" y="73" font-size="13">그래프</text>
+<rect class="b" x="470" y="62" width="12" height="12" rx="2"/><text class="ink" x="488" y="73" font-size="13">BM25</text>
+<line class="grid" x1="380.0" y1="112" x2="380.0" y2="420" stroke-width="1"/>
+<text class="mute" x="380.0" y="104" font-size="11" text-anchor="middle">0%</text>
+<line class="grid" x1="615.0" y1="112" x2="615.0" y2="420" stroke-width="1"/>
+<text class="mute" x="615.0" y="104" font-size="11" text-anchor="middle">50%</text>
+<line class="grid" x1="850.0" y1="112" x2="850.0" y2="420" stroke-width="1"/>
+<text class="mute" x="850.0" y="104" font-size="11" text-anchor="middle">100%</text>
+<text class="ink" x="40" y="143" font-size="15" font-weight="700">영화 · 인물 교집합</text>
+<text class="mute" x="40" y="164" font-size="12">19문항 · 줄거리에 이름이 없는 배우</text>
+<path class="g" d="M380 128 H846.0 Q850.0 128 850.0 132 V142 Q850.0 146 846.0 146 H380 Z"/>
+<text class="ink" x="858.0" y="141.5" font-size="12.5">100% <tspan class="mute">(19/19)</tspan></text>
+
+<text class="ink" x="388.0" y="161.5" font-size="12.5">0% <tspan class="mute">(0/19)</tspan></text>
+<line class="base" x1="380" y1="125" x2="380" y2="169" stroke-width="1.5"/>
+<text class="ink" x="40" y="221" font-size="15" font-weight="700">한국사 · 홀드아웃</text>
+<text class="mute" x="40" y="242" font-size="12">14문항 · 정답 69%가 질문에 이름 등장</text>
+<path class="g" d="M380 206 H745.2857142857142 Q749.2857142857142 206 749.2857142857142 210 V220 Q749.2857142857142 224 745.2857142857142 224 H380 Z"/>
+<text class="ink" x="757.2857142857142" y="219.5" font-size="12.5">79% <tspan class="mute">(11/14)</tspan></text>
+<path class="b" d="M380 226 H812.4285714285714 Q816.4285714285714 226 816.4285714285714 230 V240 Q816.4285714285714 244 812.4285714285714 244 H380 Z"/>
+<text class="ink" x="824.4285714285714" y="239.5" font-size="12.5">93% <tspan class="mute">(13/14)</tspan></text>
+<line class="base" x1="380" y1="203" x2="380" y2="247" stroke-width="1.5"/>
+<text class="ink" x="40" y="299" font-size="15" font-weight="700">한국사 · bridge-hard</text>
+<text class="mute" x="40" y="320" font-size="12">10문항 · 다리를 건너야 하는 질문만</text>
+<path class="g" d="M380 284 H799.0 Q803.0 284 803.0 288 V298 Q803.0 302 799.0 302 H380 Z"/>
+<text class="ink" x="811.0" y="297.5" font-size="12.5">90% <tspan class="mute">(9/10)</tspan></text>
+<path class="b" d="M380 304 H705.0 Q709.0 304 709.0 308 V318 Q709.0 322 705.0 322 H380 Z"/>
+<text class="ink" x="717.0" y="317.5" font-size="12.5">70% <tspan class="mute">(7/10)</tspan></text>
+<line class="base" x1="380" y1="281" x2="380" y2="325" stroke-width="1.5"/>
+<text class="ink" x="40" y="377" font-size="15" font-weight="700">개인정보보호법 · 위임 추적</text>
+<text class="mute" x="40" y="398" font-size="12">18문항 · 법 → 시행령 → 고시</text>
+<path class="g" d="M380 362 H819.8888888888889 Q823.8888888888889 362 823.8888888888889 366 V376 Q823.8888888888889 380 819.8888888888889 380 H380 Z"/>
+<text class="ink" x="831.8888888888889" y="375.5" font-size="12.5">94% <tspan class="mute">(17/18)</tspan></text>
+<path class="b" d="M380 382 H715.4444444444445 Q719.4444444444445 382 719.4444444444445 386 V396 Q719.4444444444445 400 715.4444444444445 400 H380 Z"/>
+<text class="ink" x="727.4444444444445" y="395.5" font-size="12.5">72% <tspan class="mute">(13/18)</tspan></text>
+<line class="base" x1="380" y1="359" x2="380" y2="403" stroke-width="1.5"/>
+</svg>

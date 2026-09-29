@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<defs><marker id="h-code" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="f-code" d="M0 0 L10 5 L0 10 z"/></marker><marker id="h-ask" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="f-ask" d="M0 0 L10 5 L0 10 z"/></marker><marker id="h-read" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="f-read" d="M0 0 L10 5 L0 10 z"/></marker><marker id="h-human" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="f-human" d="M0 0 L10 5 L0 10 z"/></marker></defs>
+<style>.bg{fill:#fbfaf7}.ink{fill:#1f2328}.mute{fill:#6a737d}.node{fill:#fff}.s-code{stroke:#9aa0a6}.s-ask{stroke:#2a78d6}.s-read{stroke:#1baf7a}.s-human{stroke:#eb6834}.f-code{fill:#9aa0a6}.f-ask{fill:#2a78d6}.f-read{fill:#1baf7a}.f-human{fill:#eb6834}@media (prefers-color-scheme: dark){.bg{fill:#16181c}.ink{fill:#e6e6e6}.mute{fill:#9aa0a6}.node{fill:#1f2328}.s-code{stroke:#6a707a}.s-ask{stroke:#3987e5}.s-read{stroke:#199e70}.s-human{stroke:#d95926}.f-code{fill:#6a707a}.f-ask{fill:#3987e5}.f-read{fill:#199e70}.f-human{fill:#d95926}}</style>
+<rect class="bg" width="960" height="500" rx="14"/>
+<text class="mute" x="40" y="38" font-size="13">한 그래프에 겹친 시점 — 재고 발주 건 그래프 (누가 이 칸을 정하는가)</text>
+<rect class="f-code" x="40" y="56" width="12" height="12" rx="2"/><text class="ink" x="58" y="67" font-size="13">코드 작성 시</text>
+<rect class="f-ask" x="168" y="56" width="12" height="12" rx="2"/><text class="ink" x="186" y="67" font-size="13">질문 도착 후</text>
+<rect class="f-read" x="296" y="56" width="12" height="12" rx="2"/><text class="ink" x="314" y="67" font-size="13">자료를 읽은 뒤</text>
+<rect class="f-human" x="438" y="56" width="12" height="12" rx="2"/><text class="ink" x="456" y="67" font-size="13">사람이 본 뒤</text>
+<text class="mute" x="566" y="67" font-size="12">· 인덱싱 시는 이 그래프에 없음</text>
+<path class="s-code" fill="none" stroke-width="1.8" d="M210 231.0 C236.0 231.0 236.0 231.0 262 231.0" marker-end="url(#h-code)"/>
+<path class="s-code" fill="none" stroke-width="1.8" d="M422 231.0 C596.0 231.0 596.0 119.0 770 119.0" marker-end="url(#h-code)"/>
+<text class="ink" x="560" y="120" font-size="12" text-anchor="middle">통과</text>
+<path class="s-code" fill="none" stroke-width="1.8" d="M422 231.0 C438.5 231.0 438.5 341.0 455 341.0" marker-end="url(#h-code)"/>
+<text class="ink" x="410" y="300" font-size="12" text-anchor="middle">걸림</text>
+<path class="s-code" fill="none" stroke-width="1.8" d="M585 341.0 C598.5 341.0 598.5 341.0 612 341.0" marker-end="url(#h-code)"/>
+<path class="s-human" fill="none" stroke-width="2.5" d="M687.0 306 C687.0 246 850.0 214 850.0 154" marker-end="url(#h-human)"/>
+<text class="ink" x="700" y="214" font-size="12" text-anchor="middle">approve · edit</text>
+<path class="s-human" fill="none" stroke-width="2.5" d="M762 341.0 C778.5 341.0 778.5 341.0 795 341.0" marker-end="url(#h-human)"/>
+<text class="ink" x="778" y="298" font-size="12" text-anchor="middle">reject</text>
+<path class="s-human" fill="none" stroke-width="2.5" d="M687.0 376 C687.0 437.0 497 427.0 437 427.0" marker-end="url(#h-human)"/>
+<text class="ink" x="560" y="452" font-size="12" text-anchor="middle">redo</text>
+<path class="s-read" fill="none" stroke-width="2.5" d="M349.5 392 L342.0 266" marker-end="url(#h-read)"/>
+<text class="ink" x="392" y="336" font-size="12" text-anchor="middle">다시 검사</text>
+<rect class="node s-ask" x="40" y="196" width="170" height="70" rx="8" stroke-width="2.5"/>
+<rect class="f-ask" x="40" y="204" width="4" height="54" rx="2"/>
+<text class="ink" x="54" y="220" font-size="14" font-weight="700">judge_item</text>
+<text class="mute" x="54" y="239" font-size="11.5">LLM이 발주량 판단 · 200건</text>
+<text class="ink" x="54" y="256" font-size="10.5" opacity=".75">▸ 질문 도착 후</text>
+<rect class="node s-code" x="262" y="196" width="160" height="70" rx="8" stroke-width="1.2"/>
+<rect class="f-code" x="262" y="204" width="4" height="54" rx="2"/>
+<text class="ink" x="276" y="220" font-size="14" font-weight="700">check_rules</text>
+<text class="mute" x="276" y="239" font-size="11.5">기준: 발주액 £200 · 표현</text>
+<text class="ink" x="276" y="256" font-size="10.5" opacity=".75">▸ 코드 작성 시</text>
+<rect class="node s-code" x="770" y="84" width="160" height="70" rx="8" stroke-width="1.2"/>
+<rect class="f-code" x="770" y="92" width="4" height="54" rx="2"/>
+<text class="ink" x="784" y="108" font-size="14" font-weight="700">send_po 📠</text>
+<text class="mute" x="784" y="127" font-size="11.5">바깥으로 나가는 유일한 곳</text>
+<text class="ink" x="784" y="144" font-size="10.5" opacity=".75">▸ 코드 작성 시</text>
+<rect class="node s-code" x="455" y="306" width="130" height="70" rx="8" stroke-width="1.2"/>
+<rect class="f-code" x="455" y="314" width="4" height="54" rx="2"/>
+<text class="ink" x="469" y="330" font-size="14" font-weight="700">enqueue</text>
+<text class="mute" x="469" y="349" font-size="11.5">결재함 알림</text>
+<text class="ink" x="469" y="366" font-size="10.5" opacity=".75">▸ 코드 작성 시</text>
+<rect class="node s-human" x="612" y="306" width="150" height="70" rx="8" stroke-width="2.5"/>
+<rect class="f-human" x="612" y="314" width="4" height="54" rx="2"/>
+<text class="ink" x="626" y="330" font-size="14" font-weight="700">review (멈춤)</text>
+<text class="mute" x="626" y="349" font-size="11.5">interrupt · 사람의 답</text>
+<text class="ink" x="626" y="366" font-size="10.5" opacity=".75">▸ 사람이 본 뒤</text>
+<rect class="node s-code" x="795" y="306" width="135" height="70" rx="8" stroke-width="1.2"/>
+<rect class="f-code" x="795" y="314" width="4" height="54" rx="2"/>
+<text class="ink" x="809" y="330" font-size="14" font-weight="700">record_reject</text>
+<text class="mute" x="809" y="349" font-size="11.5">반려 사유 기록</text>
+<text class="ink" x="809" y="366" font-size="10.5" opacity=".75">▸ 코드 작성 시</text>
+<rect class="node s-read" x="262" y="392" width="175" height="70" rx="8" stroke-width="2.5"/>
+<rect class="f-read" x="262" y="400" width="4" height="54" rx="2"/>
+<text class="ink" x="276" y="416" font-size="14" font-weight="700">rejudge</text>
+<text class="mute" x="276" y="435" font-size="11.5">지시를 읽고 재판단 · 2회까지</text>
+<text class="ink" x="276" y="452" font-size="10.5" opacity=".75">▸ 자료를 읽은 뒤</text>
+<text class="mute" x="40" y="488" font-size="12">멈춘 자리는 체크포인트의 next=('review',)로 기억된다 — 서버를 재시작해도 대기 18건이 그대로 남았다</text>
+</svg>
