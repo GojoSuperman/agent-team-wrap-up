@@ -24,6 +24,17 @@
   code { background:var(--code); border-radius:4px; padding:.1em .35em; font-size:.88em; }
   blockquote { border-left:4px solid var(--accent); margin:1.2em 0; padding:.2em 1em; color:var(--muted); }
   hr { border:0; border-top:1px solid var(--line); margin:2.4em 0; }
+  figure { margin:1.8em 0; }
+  figure img, figure video { width:100%; height:auto; display:block; margin:0; border-radius:10px; border:1px solid var(--line); }
+  figure.narrow { max-width:440px; margin-left:auto; margin-right:auto; }
+  figure.mid { max-width:560px; margin-left:auto; margin-right:auto; }
+  figcaption { color:var(--muted); font-size:.88rem; margin-top:.6em; line-height:1.6; }
+  details { border:1px solid var(--line); border-radius:8px; padding:.4em 1em; margin:1em 0; background:var(--code); }
+  details summary { cursor:pointer; color:var(--accent); font-weight:700; font-size:.92rem; }
+  details[open] summary { margin-bottom:.6em; }
+  .tldr { border:1px solid var(--line); border-top:3px solid var(--accent); border-radius:10px; padding:.9em 1.3em .6em; margin:1.8em 0; background:var(--code); }
+  .tldr-h { margin:0 0 .4em; font-weight:700; color:var(--accent); font-size:.95rem; }
+  .tldr ol { margin:0; padding-left:1.3em; } .tldr li { margin:.35em 0; }
 </style>
 </head>
 <body>
