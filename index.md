@@ -37,7 +37,7 @@ description: "에이전트 팀 꾸리기 모듈 WRAP UP. 구조가 굳는 시점
 |---|---|---|
 | 뉴스레터 | [과학·우주 뉴스레터](https://github.com/GojoSuperman/Newsletter-Agent) | 수집 → 선별 → 요약 → 검수 → 발행 |
 | 고객 응대 | [모두몰 음성 상담](https://github.com/GojoSuperman/Creating-a-Customer-Service-Agent) | 문의를 분류하고, 조회하고, 근거로 답한다 |
-| GraphRAG | [영화·한국사 내비게이터](https://github.com/GojoSuperman/graph-navigator) · [개인정보보호법](https://github.com/GojoSuperman/law-navigator) | 관계를 따라 여러 단계를 건너 답한다 |
+| GraphRAG | [영화·한국사 내비게이터](https://github.com/GojoSuperman/graph-navigator) · 개인정보보호법 | 관계를 따라 여러 단계를 건너 답한다 |
 | 딥리서치 | [MBTI 궁합론 리서처](https://github.com/GojoSuperman/Deep-research-agent) | 코디네이터가 목차를 짜고 조사관이 나눠 읽는다 |
 | 사람 승인 | [재고 발주 결재실](https://github.com/GojoSuperman/creating-a-human-in-the-loop-agent) | 위험한 발주만 팩스 직전에 멈춘다 |
 | 도구 연결 | MCP · Skill · OpenClaw | 에이전트에 손을 붙인다 |
